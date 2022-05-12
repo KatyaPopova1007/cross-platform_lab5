@@ -3,7 +3,7 @@ var deferredPrompt = null;
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register('/sw.js')
     .then(function () {
-      console.log("Service worker зареєстрований!");
+      console.log("Service worker зарегестрирован!");
     })
 };
 

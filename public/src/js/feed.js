@@ -9,9 +9,9 @@ function openCreatePostModal() {
     deferredPrompt.userChoice.then(function (choiceResult) {
       console.log(choiceResult.outcome);
       if (choiceResult.outcome === "dismissed") {
-        console.log("Користувач відмінив встановлення додатку");
+        console.log("Пользовтель отменил установку");
       } else {
-        console.log("Користувач встановив PWA");
+        console.log("Пользователь установил PWA");
       }
     });
     deferredPrompt = null;
